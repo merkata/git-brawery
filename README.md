@@ -41,8 +41,30 @@ From here, every file you create or modify, you need to add to the staging area 
 
 OK, that is the basic flow when working with local git directories, you should be fine on your own with these three commands if nothing goes wrong (but we'll see what to do when things go wrong as well).
 
+On a remote branch, you usually just 'clone' a repository, that is you download the whole content onto your local computer and work on it from there.
+
+    git clone https://github.com/someUser/someRepository.git
+    cd someRepository
+    # do development stuff here
+
+In case you want to change code remotely, you generally issue a "PR" or a "Pull Request", that is when you want something you did to be fetched and merged into the repository (yay)!
+
 ## Tips and tricks
+The basic workflow of the day-to-day developer is such
+
+    git checkout master # go to master branch
+    git fetch # fetch changes from remote repository
+    git merge origin/master # check for new work, resolve merge conflicts
+    git checkout -b daily_work # work in a local branch
+    git add . # add your files for commit
+    git commit -m "Message" # commit your work
+    git checkout master # go back to master
+    git fetch # fetch changes someone else might've done
+    git merge origin/master # merge from remote
+    git merge daily_work # merge your work
+    git push # push changes to remote server
+
 
 ## Further reading
-
+[Git SCM Docs](https://git-scm.com/docs)
 
