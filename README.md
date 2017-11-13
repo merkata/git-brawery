@@ -3,15 +3,15 @@ A short introduction to git, GitHub and GitHub Enterprise
 
 ## Things to talk about
 
--[] What is git
+-[ ] What is git
 
--[] Why should you use git
+-[ ] Why should you use git
 
--[] How can you use git
+-[ ] How can you use git
 
--[] What are some tips and trick to use git
+-[ ] What are some tips and trick to use git
 
--[] Recommendations for further reading
+-[ ] Recommendations for further reading
 
 ## What is git?
 
