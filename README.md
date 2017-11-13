@@ -41,4 +41,8 @@ From here, every file you create or modify, you need to add to the staging area 
 
 OK, that is the basic flow when working with local git directories, you should be fine on your own with these three commands if nothing goes wrong (but we'll see what to do when things go wrong as well).
 
+## Tips and tricks
+
+## Further reading
+
 
