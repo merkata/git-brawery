@@ -1,6 +1,14 @@
 # Git for the Brave and Bold
 A short introduction to git, GitHub and GitHub Enterprise
 
+## Things to talk about
+
+-[ ] What is git
+-[ ] Why should you use git
+-[ ] How can you use git
+-[ ] What are some tips and trick to use git
+-[ ] Recommendations for further reading
+
 ## What is git?
 
 Git is a version control system. It is best used for simple text, meaning configuration files, source code, some touchy poetry and all else clear text.
