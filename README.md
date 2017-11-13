@@ -17,5 +17,13 @@ Git can also be used for centralized colaboration, where you don't need to send 
 
 ## Why using git?
 
+Git can help you document your steps of work, whether development (as in writing and refactoring code), but also purely logical, when developing documentation, writing configuration files etc. You can take a look back and gain some insights on how a project / specific work started and how it developed.
+
+You can colaborate with your co-workers a lot easier, sharing a code is not zipping a directory and sending it via e-mail across the internet, it is more pointing to a colleague at a repository which he/she can clone and later contribute to (more on that later).
+
+Version control is starting to become a part of all things IT, from infrastructure to development - at times it is highly recommended to use it, as other profesionnals use it already, at other times it is expected you use it, such as with newer programming languages and their build tools (think Rust's cargo, Elixir's mix etc.).
+
+Git can offer you control over what is being changed in your network, think infrastructure, configuration management, application configuration, source code - it let's you have clear and centralized insights on what has been done when and by whom.
+
 ## How to use git?
 
