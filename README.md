@@ -27,3 +27,18 @@ Git can offer you control over what is being changed in your network, think infr
 
 ## How to use git?
 
+The basic workflow is pretty simple, let's start with a single branch on a local machine. You would need to initialize a repository where you track and commit your work.
+
+    mkdir new_project
+    cd new_project
+    git init #this initializes our new git repo
+
+From here, every file you create or modify, you need to add to the staging area for a commit. Let's create a new file and add it.
+
+    echo "# My first repository" > README.md
+    git add README.md
+    git commit -m "Initial commit" # -m stands for commit Message
+
+OK, that is the basic flow when working with local git directories, you should be fine on your own with these three commands if nothing goes wrong (but we'll see what to do when things go wrong as well).
+
+
