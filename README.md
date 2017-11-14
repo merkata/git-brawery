@@ -53,6 +53,8 @@ Git can offer you control over what is being changed in your network, think infr
 
 ## How to use git?
 
+### Basic workflows
+
 The basic workflow is pretty simple, let's start with a single branch on a local machine. You would need to initialize a repository where you track and commit your work.
 
     mkdir new_project
@@ -74,6 +76,23 @@ On a remote branch, you usually just 'clone' a repository, that is you download 
     # do development stuff here
 
 In case you want to change code remotely, you generally issue a "PR" or a "Pull Request", that is when you want something you did to be fetched and merged into the repository (yay)!
+
+### Gory Q&A details
+How do I remove a file that has been staged into the directory index?
+
+    git reset HEAD <filename>
+
+How do I undo the last commit I did
+
+    git reset --hard HEAD^ # --hard has no way of undoing itself though
+
+How do I go to some version of my files back in time?
+
+    git checkout [SHA of commit you want to go back to]
+
+How do I abort a merge, I need help from a senior colleague...
+
+    git merge --abort
 
 ## Tips and tricks
 The basic workflow of the day-to-day developer is such
