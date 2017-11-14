@@ -15,6 +15,8 @@ A short introduction to git, GitHub and GitHub Enterprise
 
 ## What is git?
 
+### Basics
+
 Git is a version control system. It is best used for simple text, meaning configuration files, source code, some touchy poetry and all else clear text.
 
 It can work with binaries and other formats, you have git-lfs or Git Large-File-Storage, but git shines when it comes to text, we'll see how.
@@ -26,6 +28,18 @@ When using git, you know who has done a change on a set of text, when was it don
 Git is decentralized, so unlike CVS and Subversion, you get to work alone (don't cry), but you can rapidly share your changes with colleagues and other like minded people without the need of a specialized server somewhere, if you're point A and your developer friend is point B, you don't need an intermittent point.
 
 Git can also be used for centralized colaboration, where you don't need to send the updated version of a document across half the company, the updated document can reside on one place with all the historical changes (and older versions) kept safe for generations to come.
+
+### Intimates
+Git uses a three type working model
+- the working tree
+- the index directory tree
+- the commit tree
+
+The working tree consists of the changes you do on your local files, where you update the current (working) version of those files.
+
+The index directory tree is the list of files that are being changed in reference to git - these can be new files, renamed/deleted files, files that are already tracked by git and were modified. The files inside the direcroty index are the files that are ready to be added to the commit tree,
+
+The commit tree is the set of changes (taken from the directory index) that are going to be committed into one logical change - if you change a link in some html files for instance, you would add them all in the commit tree and commit those changes as one logical piece, i.e. "Changed contact link to point to new address".
 
 ## Why using git?
 
