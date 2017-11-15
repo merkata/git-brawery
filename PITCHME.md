@@ -171,7 +171,9 @@ The basic workflow of the day-to-day developer is such
 ---
 
 ## Further reading
+[Git - the simple guide] (http://rogerdudler.github.io/git-guide/)
 [Git SCM Docs](https://git-scm.com/docs)
+[Lynda.com Git lessons] (https://www.lynda.com/Git-training-tutorials/1383-0.html)
 
 ---
 
