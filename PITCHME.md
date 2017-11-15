@@ -153,6 +153,13 @@ How do I abort a merge, I need help from a senior colleague...
 
 ---
 
+How do I add something I forgot to the latest commit
+
+    git add <forgotten file>
+    git commit --amend
+
+---
+
 ## Tips and tricks
 The basic workflow of the day-to-day developer is such
 
