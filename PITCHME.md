@@ -109,6 +109,18 @@ From here, every file you create or modify, you need to add to the staging area 
 
 ---
 
+You can try and test different ideas in branches, where you copy your main work into a separate "virtual space" or a branch - if you are satisfied with your work, you can later merge it into your main (master) branch.
+
+    git branch new_idea #create a new space
+    git checkout new_idea #go to the new place
+    #crazy dev things happening
+    git add . #add your changes
+    git commit -m "This idea is working" #log changes
+    git checkout master #switch back to main branch
+    git merge new_idea #merge your changes
+
+---
+
 OK, that is the basic flow when working with local git directories, you should be fine on your own with these three commands if nothing goes wrong (but we'll see what to do when things go wrong as well).
 
 ---
